@@ -50,6 +50,7 @@ dependencies = [
     "matplotlib>=3.9",
     "pandas>=2.2",
     "numpy>=2.0",
+    "scikit-learn>=1.5",
     "tqdm>=4.66",
     "requests>=2.32",
 ]
