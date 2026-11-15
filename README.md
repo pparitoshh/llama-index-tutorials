@@ -143,8 +143,8 @@ pip install ".[notebooks]"
 Create a `.env` file in the project root:
 
 ```bash
-# Required for OpenAI integrations
-OPENAI_API_KEY=your_openai_api_key_here
+# Required for Groq LLM integration
+GROQ_API_KEY=your_groq_api_key_here
 
 # Optional: For Anthropic LLM integration
 ANTHROPIC_API_KEY=your_anthropic_api_key_here
@@ -257,7 +257,7 @@ ModuleNotFoundError: No module named 'llama_index'
 
 **Solution**: Ensure you're using the modular architecture:
 ```bash
-pip install llama-index-core llama-index-llms-openai llama-index-embeddings-openai
+pip install llama-index-core llama-index-llms-groq llama-index-embeddings-fastembed
 ```
 
 ### API Key Errors
