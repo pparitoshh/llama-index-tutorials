@@ -1,0 +1,7 @@
+# Project settings for the notebooks.
+# Change the model name here. All notebooks read it from this file.
+
+llm:
+  # Groq model name. Run `curl https://api.groq.com/openai/v1/models` with your key
+  # to see the models that your key can use.
+  model: qwen/qwen3.8-27b
